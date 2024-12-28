@@ -1,7 +1,7 @@
 import 'dart:io';
 void main() {
 print("Enter  Email");
-var Email = numparse(stdin.readLineSync()!);
+var Email = (stdin.readLineSync()!);
 print("Enter passward");
 var passward =num.parse(stdin.readLineSync()!);
 
